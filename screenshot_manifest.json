@@ -1,0 +1,825 @@
+{
+  "stage": "1013V_VISUAL_SYSTEM_POLISH_LINE",
+  "phase": "V0_VISUAL_AUDIT",
+  "boundary": {
+    "visual_audit_only": true,
+    "frontend_modified": false,
+    "backend_modified": false,
+    "provider_called": false,
+    "database_written": false,
+    "feishu_written": false,
+    "formal_apply_performed": false
+  },
+  "environment": {
+    "root": "D:\\Documents\\SmartEdu\\xiaobei-core",
+    "browser": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "static_server_base_url": "http://127.0.0.1:61260",
+    "started_at": "2026-07-08T15:57:15.839Z",
+    "ended_at": "2026-07-08T15:57:49.406Z"
+  },
+  "case_count": 18,
+  "pass_count": 18,
+  "fail_count": 0,
+  "records": [
+    {
+      "id": "01_home_global_shell_desktop",
+      "label": "全局壳层 / 师维大厅 desktop",
+      "source_path": "frontend/home.html",
+      "url_path": "/frontend/home.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "surface_group": "global_shell",
+      "audit_focus": [
+        "top_shell",
+        "space_navigation",
+        "teacher_workbench_identity"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/home.html",
+      "screenshot": "screenshots/01_home_global_shell_desktop.png",
+      "screenshot_bytes": 289566,
+      "screenshot_dimensions": {
+        "width": 1425,
+        "height": 1403
+      },
+      "dom_metrics": {
+        "title": "师维 · 教师AI工作台",
+        "location": "http://127.0.0.1:61260/frontend/home.html",
+        "body_text_length": 755,
+        "body_text_sample": "师维\n教师AI工作台\n🏠\n🏫\n📖\n👀\n🖼️\n✅\n📚\n🗄️\n2\n预\n预览用户老师\n大厅\n今天先处理最重要的一件事\n\n师维把课堂、备课、评价、归档与教研收拢到一个工作入口；大厅只呈现今日主线，其余事项保持可见但不抢焦点。\n\n6月15日 星期一\n欢迎回来，预览用户老师\n师维主脑\n今日唯一推荐\n\n其他工作已折叠在下方，保留节奏，不打断当前任务。\n\nP0 · 小教\n14:00\n教室\n进入教室 · 三年级《青绿中国色》\n\n课堂大屏、学生提交入口和任务节奏已经准备好。\n\n进入教室\n查看其他任务 (5项)\n教学月历\n2026年6月\n一\n二\n三\n四\n五\n六\n日\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n 今日摘要\n14:00 三年级《青绿中国色》课堂\n评阅室：学期末作业提交与 AI 评分待整理\n档案室：3项课堂证据待归档\n伙伴站位\n师维伙伴\n\n小备、小教、小评、小美、小管、小研各在自己的空间待命。\n\n小备\n备课室 · 备课室负责人\n\n课时流程、学习单与材料已准备\n\n继续备课\n小教\n教室 · 课堂协同员\n\n大屏、任务节奏已就绪，等待课堂开始\n\n进入课堂\n小评\n评阅室 · 评价资料整理员\n\n按班级整理提交、未交与 AI 评分资料\n\n进入评阅室\n小美\n知识馆 · 视觉素材助手\n\n学习单背景、PPT封面可继续完善\n\n整理素材\n小管\n档案室 · 档案管理员\n\n课堂证据与评价表待归档\n\n整理档案\n小研\n教研室 · 教研研究员\n\n可生成教学反思与案例素材\n\n生成案例\n课堂提交\n学生作品快速入池\n作业创建\n生成作业说明\n评阅室\n学期末作业整理\n课堂常规\n记录与统计\n小教预览\n体验新工作面",
+        "scroll_width": 1425,
+        "scroll_height": 1403,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 46,
+          "links": 22,
+          "inputs": 1,
+          "tables": 0,
+          "cards": 0,
+          "topbars": 1,
+          "bottom_bars": 1,
+          "hidden_screens": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "02_home_global_shell_mobile",
+      "label": "全局壳层 / 师维大厅 mobile",
+      "source_path": "frontend/home.html",
+      "url_path": "/frontend/home.html",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "mobile": true
+      },
+      "surface_group": "global_shell",
+      "audit_focus": [
+        "mobile_navigation",
+        "top_shell_density"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/home.html",
+      "screenshot": "screenshots/02_home_global_shell_mobile.png",
+      "screenshot_bytes": 275712,
+      "screenshot_dimensions": {
+        "width": 390,
+        "height": 3280
+      },
+      "dom_metrics": {
+        "title": "师维 · 教师AI工作台",
+        "location": "http://127.0.0.1:61260/frontend/home.html",
+        "body_text_length": 759,
+        "body_text_sample": "师维\n教师AI工作台\n🏠\n🏫\n📖\n👀\n🖼️\n✅\n📚\n🗄️\n大厅\n今天先处理最重要的一件事\n\n师维把课堂、备课、评价、归档与教研收拢到一个工作入口；大厅只呈现今日主线，其余事项保持可见但不抢焦点。\n\n6月15日 星期一\n欢迎回来，预览用户老师\n师维主脑\n今日唯一推荐\n\n其他工作已折叠在下方，保留节奏，不打断当前任务。\n\nP0 · 小教\n14:00\n教室\n进入教室 · 三年级《青绿中国色》\n\n课堂大屏、学生提交入口和任务节奏已经准备好。\n\n进入教室\n查看其他任务 (5项)\n教学月历\n2026年6月\n一\n二\n三\n四\n五\n六\n日\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n 今日摘要\n14:00 三年级《青绿中国色》课堂\n评阅室：学期末作业提交与 AI 评分待整理\n档案室：3项课堂证据待归档\n伙伴站位\n师维伙伴\n\n小备、小教、小评、小美、小管、小研各在自己的空间待命。\n\n小备\n备课室 · 备课室负责人\n\n课时流程、学习单与材料已准备\n\n继续备课\n小教\n教室 · 课堂协同员\n\n大屏、任务节奏已就绪，等待课堂开始\n\n进入课堂\n小评\n评阅室 · 评价资料整理员\n\n按班级整理提交、未交与 AI 评分资料\n\n进入评阅室\n小美\n知识馆 · 视觉素材助手\n\n学习单背景、PPT封面可继续完善\n\n整理素材\n小管\n档案室 · 档案管理员\n\n课堂证据与评价表待归档\n\n整理档案\n小研\n教研室 · 教研研究员\n\n可生成教学反思与案例素材\n\n生成案例\n课堂提交\n学生作品快速入池\n作业创建\n生成作业说明\n评阅室\n学期末作业整理\n课堂常规\n记录与统计\n小教预览\n体验新工作面\n大厅\n教室\n提交\n作品\n评阅",
+        "scroll_width": 390,
+        "scroll_height": 3280,
+        "viewport_width": 390,
+        "viewport_height": 844,
+        "counts": {
+          "buttons": 46,
+          "links": 22,
+          "inputs": 1,
+          "tables": 0,
+          "cards": 0,
+          "topbars": 1,
+          "bottom_bars": 1,
+          "hidden_screens": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "03_xiaojiao_preview_home",
+      "label": "小教新工作面 / 今日重点",
+      "source_path": "frontend/xiaojiao-preview.html",
+      "url_path": "/frontend/xiaojiao-preview.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "surface_group": "xiaojiao_preview",
+      "audit_focus": [
+        "assistant_presence",
+        "today_priority",
+        "review_queue"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/xiaojiao-preview.html",
+      "screenshot": "screenshots/03_xiaojiao_preview_home.png",
+      "screenshot_bytes": 72627,
+      "screenshot_dimensions": {
+        "width": 1425,
+        "height": 1086
+      },
+      "dom_metrics": {
+        "title": "小教新工作面预览",
+        "location": "http://127.0.0.1:61260/frontend/xiaojiao-preview.html",
+        "body_text_length": 247,
+        "body_text_sample": "小教预览\n体验入口\n预览体验\n安全预览\n返回首页\n暖感\n清爽\n紧凑\n教\n小教\n第 3 周 · 周三\n\n下午好，张老师\n\n今天先处理这一课\n\n当前单课、业务进度和待审核内容都放在这里。\n\n今日重点\n课时设计：待确认\n四年级 1 班《色彩的感觉》\n\n第 2 课 · 今天第 3 节\n\n课时设计\n待确认\n学习单\n还未生成\n评价量规\n还未生成\n资源参考\n待选择\n待确认：0 项\n课时设计待确认\n学习单已有候选\n教\n小教建议\n先确认课时结构，再处理学习单。\n进入单课焦点\n稍后\n\n需要长任务？打开旧工作台",
+        "scroll_width": 1425,
+        "scroll_height": 1086,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 57,
+          "links": 1,
+          "inputs": 1,
+          "tables": 0,
+          "cards": 13,
+          "topbars": 0,
+          "bottom_bars": 0,
+          "hidden_screens": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "04_xiaojiao_lesson_draft_focus",
+      "label": "小教新工作面 / 课时草稿与主内容",
+      "source_path": "frontend/xiaojiao-preview.html",
+      "url_path": "/frontend/xiaojiao-preview.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "before_capture": "window.go && window.go('focus')",
+      "surface_group": "lesson_preview",
+      "audit_focus": [
+        "lesson_body",
+        "right_material_folder",
+        "xiaojiao_side_panel"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/xiaojiao-preview.html",
+      "screenshot": "screenshots/04_xiaojiao_lesson_draft_focus.png",
+      "screenshot_bytes": 145673,
+      "screenshot_dimensions": {
+        "width": 1425,
+        "height": 1466
+      },
+      "dom_metrics": {
+        "title": "小教新工作面预览",
+        "location": "http://127.0.0.1:61260/frontend/xiaojiao-preview.html",
+        "body_text_length": 548,
+        "body_text_sample": "小教预览\n体验入口\n预览体验\n安全预览\n返回首页\n暖感\n清爽\n紧凑\n教\n今日重点 › 这节课\n← 返回\n课时设计草稿 · 待确认\n四年级 1 班 · 今天第 3 节\n《色彩的感觉》\n\n全课 40 分钟 · 共四个环节\n\n教学目标\n感受冷色与暖色带来的不同情绪\n能说出生活中常见的冷暖色\n尝试用冷暖对比做一次简单的色彩表达\n课时结构\n共 40 分钟\n导入 · 5 分钟\n探究 · 25 分钟\n展示 · 8 分钟\n总结 · 2 分钟\n1. 导入\n5 分钟\n2. 探究\n25 分钟\n教\n探究 25 分钟偏长。我可以压到 18 分钟，把时间留给展示。\n按这个改\n先放着\n3. 展示\n8 分钟\n4. 总结\n2 分钟\n本课材料夹\n材料夹可继续补齐\n学习单\n\n未生成\n\n评价量规\n\n还未生成\n\n资源参考\n\n待选择\n\n打开本课材料夹\n需要长任务？打开旧工作台\n轻记录\n\n顺手记录课堂观察点，不写学生明细。\n\n比例意识 / 表达感受\n教\n小教建议\n主线先看课时结构，材料夹里学习单可以直接进审核。\n待确认内容\n0 项待审核\n课时设计\n环节建议\n学习单\n评价量规\n资源参考\n轻记录\n1 草稿确认\n2 学习单候选\n3 教师审核\n生成学习单候选\n本课材料夹\n确认课时草稿\n\n已看草稿\n\n教\n对小教说一句…\n《色彩的感觉》",
+        "scroll_width": 1425,
+        "scroll_height": 1466,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 59,
+          "links": 1,
+          "inputs": 1,
+          "tables": 0,
+          "cards": 13,
+          "topbars": 0,
+          "bottom_bars": 0,
+          "hidden_screens": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "05_xiaojiao_teacher_confirm_gate",
+      "label": "小教新工作面 / 教师确认门",
+      "source_path": "frontend/xiaojiao-preview.html",
+      "url_path": "/frontend/xiaojiao-preview.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "before_capture": "window.go && window.go('gate')",
+      "surface_group": "teacher_confirm_gate",
+      "audit_focus": [
+        "candidate_review",
+        "teacher_decision",
+        "preview_before_apply"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/xiaojiao-preview.html",
+      "screenshot": "screenshots/05_xiaojiao_teacher_confirm_gate.png",
+      "screenshot_bytes": 77695,
+      "screenshot_dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dom_metrics": {
+        "title": "小教新工作面预览",
+        "location": "http://127.0.0.1:61260/frontend/xiaojiao-preview.html",
+        "body_text_length": 289,
+        "body_text_sample": "小教预览\n体验入口\n预览体验\n安全预览\n返回首页\n暖感\n清爽\n紧凑\n教\n今日重点 › 这节课 › 学习单候选\n← 返回\n这是一版候选稿\n等待你确认\n你确认后，才会放入本课材料。\n候选类型\n学习单候选\n材料\n学习单\n状态\n等待确认\n《色彩的感觉》学习单\n\n学习目标：感受冷暖色带来的不同情绪\n\n任务一\n圈出图片中的冷色和暖色\n任务二\n用 3 个词描述这张图给你的感觉\n任务三\n用冷暖对比完成一张小色稿\n自查问题\n\n我有没有说清楚颜色给我的感受？\n\n难度：正常\n\n依据：本课目标、课时结构、四年级学情\n\n进入确认\n修改一下\n暂存\n重新出一版\n放弃\n教\n对小教说一句…\n《色彩的感觉》",
+        "scroll_width": 1440,
+        "scroll_height": 1000,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 57,
+          "links": 1,
+          "inputs": 1,
+          "tables": 0,
+          "cards": 13,
+          "topbars": 0,
+          "bottom_bars": 0,
+          "hidden_screens": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "06_xiaojiao_material_folder",
+      "label": "小教新工作面 / 材料夹与证据入口",
+      "source_path": "frontend/xiaojiao-preview.html",
+      "url_path": "/frontend/xiaojiao-preview.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "before_capture": "window.go && window.go('materials')",
+      "surface_group": "evidence_and_materials",
+      "audit_focus": [
+        "source_anchor",
+        "evidence_reflection",
+        "candidate_status"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/xiaojiao-preview.html",
+      "screenshot": "screenshots/06_xiaojiao_material_folder.png",
+      "screenshot_bytes": 72627,
+      "screenshot_dimensions": {
+        "width": 1425,
+        "height": 1086
+      },
+      "dom_metrics": {
+        "title": "小教新工作面预览",
+        "location": "http://127.0.0.1:61260/frontend/xiaojiao-preview.html",
+        "body_text_length": 247,
+        "body_text_sample": "小教预览\n体验入口\n预览体验\n安全预览\n返回首页\n暖感\n清爽\n紧凑\n教\n小教\n第 3 周 · 周三\n\n下午好，张老师\n\n今天先处理这一课\n\n当前单课、业务进度和待审核内容都放在这里。\n\n今日重点\n课时设计：待确认\n四年级 1 班《色彩的感觉》\n\n第 2 课 · 今天第 3 节\n\n课时设计\n待确认\n学习单\n还未生成\n评价量规\n还未生成\n资源参考\n待选择\n待确认：0 项\n课时设计待确认\n学习单已有候选\n教\n小教建议\n先确认课时结构，再处理学习单。\n进入单课焦点\n稍后\n\n需要长任务？打开旧工作台",
+        "scroll_width": 1425,
+        "scroll_height": 1086,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 57,
+          "links": 1,
+          "inputs": 1,
+          "tables": 0,
+          "cards": 13,
+          "topbars": 0,
+          "bottom_bars": 0,
+          "hidden_screens": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "07_xiaobei_workbench_pick",
+      "label": "旧精修工作台 / 课题确认",
+      "source_path": "frontend/xiaobei_workbench.html",
+      "url_path": "/frontend/xiaobei_workbench.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "surface_group": "prep_room_legacy",
+      "audit_focus": [
+        "lesson_queue",
+        "stepper",
+        "topic_confirm"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/xiaobei_workbench.html",
+      "screenshot": "screenshots/07_xiaobei_workbench_pick.png",
+      "screenshot_bytes": 309800,
+      "screenshot_dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dom_metrics": {
+        "title": "师维智教 v1.5.6",
+        "location": "http://127.0.0.1:61260/frontend/workbench/index.html",
+        "body_text_length": 2801,
+        "body_text_sample": "师维智教\nAI 教学共创系统\n教学规划\n课堂设计\n课堂实施\n评价复盘\n方案资源\n当前：教学规划\n徐涛老师\n三年级·美术\n?\n小备\n在线\n美术备课助理\n当前：足球微缩模型概要待确认\n+\n新备课会话\n⌄\n←\n阶段导航\n小备\n\n你可以从左侧告诉我想备哪一课、哪个单元，或先问某个年级有哪些课题。我会先生成结果预览，确认前不会进入最终成果包。\n\n小备\n\n我已把 0952B_R2 的真实 Agent 输出接入现有师维智教右侧卡片区。当前是 prototype：不调用 provider、不写 memory、不写飞书、不导出、不 seal。\n\n小备\n\n建议先确认：这个班三年级学生之前接触过中国画设色或水墨材料吗？如果没有，我会把矿物色介绍和操作步骤再降一点难度。\n\n+\n更多设置\n↑\n当前业务\n教学规划 / 教学规划\n查看月历、周历、课表和单元课时\n规划类型\n基础信息\n课务日程\n冲突检查\n工作计划\n自动排课\n\n小备正在等待老师确认，后续可继续调整工作计划预览...\n\n0952F_R1 · 真实 Agent 输出\n青绿中国色 · 结构化备课工作区\n本地 Agent 输出 · 等你确认\n\n这是 0952B_R2 真实 Agent 输出整理成的备课卡片。当前只做本地工作台协作体验，还没接入真实生成；你可以先采纳、追问、精修、锁定或暂不采用。\n\n0\n已采纳\n0\n已锁定\n4\n等你确认\n0\n暂不采用\n3\n建议先处理\n建议你先处理这 3 张卡\n1. 课题理解 先确认课题、年级、课时和课型，后面所有修改才不会跑偏。\n2. 青绿设色规律 这是本课最核心的美术知识，需要先确认设色规律是否准确。\n3. 课堂流程 流程决定 40 分钟能不能上完，适合第三个优先处理。\n建议先处理 · 3 张\n0952F_R1\n课题理解\n等你确认\n\n苏少版三年级美术《青绿中国色》，40分钟，综合·探索课型。\n\n建议先处理：先确认课题、年级、课时和课型，后面所有修改才不会跑偏。\n\n来源\n二次修订版 header / 教材版本 / 课时时长 / 课型\nR2\n可编辑字段\n教材版本、课题、课时、课型、授课班级、公开课要求\n这张卡最好先看一",
+        "scroll_width": 1440,
+        "scroll_height": 1000,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 285,
+          "links": 1,
+          "inputs": 6,
+          "tables": 0,
+          "cards": 0,
+          "topbars": 2,
+          "bottom_bars": 1,
+          "hidden_screens": 4
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "08_xiaobei_workbench_draft_fields",
+      "label": "旧精修工作台 / 草稿字段",
+      "source_path": "frontend/xiaobei_workbench.html",
+      "url_path": "/frontend/xiaobei_workbench.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "before_capture": "window.goStep && window.goStep('draft')",
+      "surface_group": "field_editing",
+      "audit_focus": [
+        "field_weight",
+        "draft_preview",
+        "table_feel"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/xiaobei_workbench.html",
+      "screenshot": "screenshots/08_xiaobei_workbench_draft_fields.png",
+      "screenshot_bytes": 349395,
+      "screenshot_dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dom_metrics": {
+        "title": "师维智教 v1.5.6",
+        "location": "http://127.0.0.1:61260/frontend/workbench/index.html",
+        "body_text_length": 2961,
+        "body_text_sample": "师维智教\nAI 教学共创系统\n教学规划\n课堂设计\n课堂实施\n评价复盘\n方案资源\n当前：教学规划\n徐涛老师\n三年级·美术\n?\n小备\n在线\n美术备课助理\n当前：足球微缩模型概要待确认\n+\n新备课会话\n⌄\n←\n阶段导航\n小备\n\n你可以从左侧告诉我想备哪一课、哪个单元，或先问某个年级有哪些课题。我会先生成结果预览，确认前不会进入最终成果包。\n\n小备\n\n我已把 0952B_R2 的真实 Agent 输出接入现有师维智教右侧卡片区。当前是 prototype：不调用 provider、不写 memory、不写飞书、不导出、不 seal。\n\n小备\n\n建议先确认：这个班三年级学生之前接触过中国画设色或水墨材料吗？如果没有，我会把矿物色介绍和操作步骤再降一点难度。\n\n小备\n\n我已把 0952B_R2 的真实 Agent 输出接入现有师维智教右侧卡片区。当前是 prototype：不调用 provider、不写 memory、不写飞书、不导出、不 seal。\n\n小备\n\n建议先确认：这个班三年级学生之前接触过中国画设色或水墨材料吗？如果没有，我会把矿物色介绍和操作步骤再降一点难度。\n\n+\n更多设置\n↑\n当前业务\n教学规划 / 教学规划\n查看月历、周历、课表和单元课时\n规划类型\n基础信息\n课务日程\n冲突检查\n工作计划\n自动排课\n\n小备正在等待老师确认，后续可继续调整工作计划预览...\n\n0952F_R1 · 真实 Agent 输出\n青绿中国色 · 结构化备课工作区\n本地 Agent 输出 · 等你确认\n\n这是 0952B_R2 真实 Agent 输出整理成的备课卡片。当前只做本地工作台协作体验，还没接入真实生成；你可以先采纳、追问、精修、锁定或暂不采用。\n\n0\n已采纳\n0\n已锁定\n4\n等你确认\n0\n暂不采用\n3\n建议先处理\n建议你先处理这 3 张卡\n1. 课题理解 先确认课题、年级、课时和课型，后面所有修改才不会跑偏。\n2. 青绿设色规律 这是本课最核心的美术知识，需要先确认设色规律是否准确。\n3. 课堂流程 流程决定 40 分钟能不能上完，适合第三个优先处理。\n建议先处理 · 3 张\n095",
+        "scroll_width": 1440,
+        "scroll_height": 1000,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 287,
+          "links": 1,
+          "inputs": 6,
+          "tables": 0,
+          "cards": 0,
+          "topbars": 2,
+          "bottom_bars": 1,
+          "hidden_screens": 4
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "09_xiaobei_workbench_dimension_edit",
+      "label": "旧精修工作台 / 评价维度编辑",
+      "source_path": "frontend/xiaobei_workbench.html",
+      "url_path": "/frontend/xiaobei_workbench.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "before_capture": "window.goStep && window.goStep('dims')",
+      "surface_group": "field_editing",
+      "audit_focus": [
+        "dimension_cards",
+        "json_hidden",
+        "teacher_editing"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/xiaobei_workbench.html",
+      "screenshot": "screenshots/09_xiaobei_workbench_dimension_edit.png",
+      "screenshot_bytes": 351355,
+      "screenshot_dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dom_metrics": {
+        "title": "师维智教 v1.5.6",
+        "location": "http://127.0.0.1:61260/frontend/workbench/index.html",
+        "body_text_length": 3121,
+        "body_text_sample": "师维智教\nAI 教学共创系统\n教学规划\n课堂设计\n课堂实施\n评价复盘\n方案资源\n当前：教学规划\n徐涛老师\n三年级·美术\n?\n小备\n在线\n美术备课助理\n当前：足球微缩模型概要待确认\n+\n新备课会话\n⌄\n←\n阶段导航\n小备\n\n你可以从左侧告诉我想备哪一课、哪个单元，或先问某个年级有哪些课题。我会先生成结果预览，确认前不会进入最终成果包。\n\n小备\n\n我已把 0952B_R2 的真实 Agent 输出接入现有师维智教右侧卡片区。当前是 prototype：不调用 provider、不写 memory、不写飞书、不导出、不 seal。\n\n小备\n\n建议先确认：这个班三年级学生之前接触过中国画设色或水墨材料吗？如果没有，我会把矿物色介绍和操作步骤再降一点难度。\n\n小备\n\n我已把 0952B_R2 的真实 Agent 输出接入现有师维智教右侧卡片区。当前是 prototype：不调用 provider、不写 memory、不写飞书、不导出、不 seal。\n\n小备\n\n建议先确认：这个班三年级学生之前接触过中国画设色或水墨材料吗？如果没有，我会把矿物色介绍和操作步骤再降一点难度。\n\n小备\n\n我已把 0952B_R2 的真实 Agent 输出接入现有师维智教右侧卡片区。当前是 prototype：不调用 provider、不写 memory、不写飞书、不导出、不 seal。\n\n小备\n\n建议先确认：这个班三年级学生之前接触过中国画设色或水墨材料吗？如果没有，我会把矿物色介绍和操作步骤再降一点难度。\n\n+\n更多设置\n↑\n当前业务\n教学规划 / 教学规划\n查看月历、周历、课表和单元课时\n规划类型\n基础信息\n课务日程\n冲突检查\n工作计划\n自动排课\n\n小备正在等待老师确认，后续可继续调整工作计划预览...\n\n0952F_R1 · 真实 Agent 输出\n青绿中国色 · 结构化备课工作区\n本地 Agent 输出 · 等你确认\n\n这是 0952B_R2 真实 Agent 输出整理成的备课卡片。当前只做本地工作台协作体验，还没接入真实生成；你可以先采纳、追问、精修、锁定或暂不采用。\n\n0\n已采纳\n0\n已锁定",
+        "scroll_width": 1440,
+        "scroll_height": 1000,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 289,
+          "links": 1,
+          "inputs": 6,
+          "tables": 0,
+          "cards": 0,
+          "topbars": 2,
+          "bottom_bars": 1,
+          "hidden_screens": 4
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "10_xiaobei_quick_prep",
+      "label": "快速备课 / 最小草稿入口",
+      "source_path": "frontend/xiaobei_quick_prep.html",
+      "url_path": "/frontend/xiaobei_quick_prep.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "before_capture": "window.goStep && window.goStep('draft')",
+      "surface_group": "quick_prep",
+      "audit_focus": [
+        "quick_lesson_draft",
+        "minimal_fields",
+        "teacher_flow"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/xiaobei_quick_prep.html",
+      "screenshot": "screenshots/10_xiaobei_quick_prep.png",
+      "screenshot_bytes": 357726,
+      "screenshot_dimensions": {
+        "width": 1425,
+        "height": 1903
+      },
+      "dom_metrics": {
+        "title": "小备快速备课",
+        "location": "http://127.0.0.1:61260/frontend/xiaobei_quick_prep.html",
+        "body_text_length": 1009,
+        "body_text_sample": "小备快速备课\n返回教学系统\n工作系统\n小备快速备课\n待生成 1｜草稿 1｜已发布 1\n进入精修工作台\n恢复示例数据\n同一个备课包，两种入口。 快速备课负责一键生成基础可交付版；精修工作台负责进一步修改字段、维度和后续精备内容。\n共用同一份 prep_package\n今日课题\n老师忙的时候，只要先把这条课题快速生成并发布基础版。\n3 条\n全部\n待生成\n草稿中\n已发布\n4 理想的居住环境\n待生成\n五年级\n2026-04-21 01:04\n极速生成\n精修\n2-2 纸卷动物\n草稿中\n四年级\n2026-04-20 23:41\n重新生成\n精修\n1-1 渐变的魅力\n已发布\n三年级\n2026-04-20 22:12\n重新生成\n精修\n4 理想的居住环境\n五年级\n五(1)班、五(3)班、五(4)班\n更新于 2026-04-21 01:04\n待生成\n01\n选课题\n02\n生成基础版\n03\n发布基础版\nStep 1 选课题\n先确认这条课题是不是现在最急着要补的基础版小备。这里只看最关键的信息，不做复杂编辑。\n当前课题\n\n4 理想的居住环境\n\n适用范围\n\n五年级\n五(1)班、五(3)班、五(4)班\n\n当前状态\n\n待生成。快速模式优先生成一版基础可交付结构。\n\n下一步动作\n\n点“生成小备草稿”，先拿到作业要求、老师提示、评价要点和评价维度。\n\nStep 2 生成基础版\n点击一次“生成小备草稿”，先拿到 4 个核心内容：作业要求、老师提示、评价要点、核心活动。这里允许你做快速小修。\n这一步追求的是“基础可交付版”，不是完整精备。\n生成小备草稿\n进入精修\n作业要求\n老师提示\n评价要点\n核心活动\n评价维度默认由系统生成。快速模式里只负责确认，不做复杂改动。\n总分 0\n当前还没有评价维度。先点“生成小备草稿”，系统会先给出一版可用的基础维度。\nStep 3 检查并发布基础版\n发布前只检查最必要的几件事。通过后，这条小备就能进入提交机、小评和后续作业链路。\n作业要求已填写\n未填写\n评价维度不少于 3 个\n当前 0 个\n总分等于 100\n当前 0\n权重合计等于 1.0\n当前 0.00\n发布基础版后，这条课题会进",
+        "scroll_width": 1425,
+        "scroll_height": 1903,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 17,
+          "links": 7,
+          "inputs": 4,
+          "tables": 0,
+          "cards": 2,
+          "topbars": 1,
+          "bottom_bars": 1,
+          "hidden_screens": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "11_quick_drafts_internal_review",
+      "label": "草稿内部审核页",
+      "source_path": "frontend/xiaobei_quick_drafts.html",
+      "url_path": "/frontend/xiaobei_quick_drafts.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "surface_group": "draft_review",
+      "audit_focus": [
+        "draft_queue",
+        "review_status",
+        "empty_or_error_state"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/xiaobei_quick_drafts.html",
+      "screenshot": "screenshots/11_quick_drafts_internal_review.png",
+      "screenshot_bytes": 133823,
+      "screenshot_dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dom_metrics": {
+        "title": "小备草稿内部审核页",
+        "location": "http://127.0.0.1:61260/frontend/xiaobei_quick_drafts.html",
+        "body_text_length": 264,
+        "body_text_sample": "首页\n工作系统\n教学系统\n📊 统计\n预\n预览用户老师\n▼\n小备草稿内部审核页\n\n这页只管 quick 草稿的内部审核。内部测试者先看 AI 生成的基础小备、确认预览结果，再决定通过、退回修改或作废。当前仍然只保存在本地草稿层，不写飞书，不改正式课时表。\n\n仅显示 quick 草稿\nvalidated patch + preview\nR3A 本地草稿层\n返回快速备课\n精修工作台\n刷新草稿箱\nQuick 草稿\n这里只显示 quick 草稿，作为内部审核入口，不对 deep 开放。\n0 条\n内部审核页状态检查失败，请稍后再试。",
+        "scroll_width": 1440,
+        "scroll_height": 1000,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 6,
+          "links": 8,
+          "inputs": 1,
+          "tables": 0,
+          "cards": 2,
+          "topbars": 1,
+          "bottom_bars": 0,
+          "hidden_screens": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "12_assignment_dimension_confirm_gate",
+      "label": "评价维度确认门",
+      "source_path": "frontend/assignment_dimension_manage.html",
+      "url_path": "/frontend/assignment_dimension_manage.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "surface_group": "teacher_confirm_gate",
+      "audit_focus": [
+        "dimension_confirm",
+        "ai_evaluation_gate",
+        "writeback_warning"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/assignment_dimension_manage.html",
+      "screenshot": "screenshots/12_assignment_dimension_confirm_gate.png",
+      "screenshot_bytes": 140495,
+      "screenshot_dimensions": {
+        "width": 1425,
+        "height": 1375
+      },
+      "dom_metrics": {
+        "title": "评价维度管理 - 雕庄中心小学美术教学平台",
+        "location": "http://127.0.0.1:61260/frontend/assignment_dimension_manage.html",
+        "body_text_length": 459,
+        "body_text_sample": "评价维度管理\n首页\n作业管理\n作业创建\n作品小评\n确认课题评价维度\n\n每个课题确认一次。确认后，本课题作品才进入自动 AI 初评和受控写回链路。\n\n返回作业管理\n课题信息\n读取失败：Unexpected token 'N', \"Not found\" is not valid JSON\n年级 / 班级\n-\n作业序号\n-\n课题\n-\n同步范围\n当前年级全部班级共用\n当前状态\n待确认 · 不自动评分\n保存方式\n年级共用\n仅本班个性化\n作业要求和评价补充\nAI 生成/更新维度\n重新读取\n年级共用：第一次确认后，同一年级同课题的各班共用这套评价维度。\n本班个性化：只覆盖当前班，不同步其他班；其他班继续使用年级共用维度。\n确认后：本课题被标记为允许自动 AI 初评。\n写回：AI 评价结果进入受控写回链路，写入飞书作品提交记录。\n未确认：作品仍可提交，但只进入人工小评，不自动评分。\n评价维度\n维度会保存到飞书评价维度 JSON。\n维度 A\n \n维度 B\n \n维度 C\n \n维度 D\n \n增加维度\n确认维度并启用 AI 评价",
+        "scroll_width": 1425,
+        "scroll_height": 1375,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 6,
+          "links": 5,
+          "inputs": 9,
+          "tables": 0,
+          "cards": 2,
+          "topbars": 1,
+          "bottom_bars": 0,
+          "hidden_screens": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "13_xiaoping_review_gallery",
+      "label": "作品馆 / 作品小评",
+      "source_path": "frontend/xiaoping_review.html",
+      "url_path": "/frontend/xiaoping_review.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "surface_group": "student_work_gallery",
+      "audit_focus": [
+        "student_work_queue",
+        "ai_first_review",
+        "teacher_decision"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/xiaoping_review.html",
+      "screenshot": "screenshots/13_xiaoping_review_gallery.png",
+      "screenshot_bytes": 116796,
+      "screenshot_dimensions": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dom_metrics": {
+        "title": "教师教学工作台",
+        "location": "http://127.0.0.1:61260/frontend/login.html",
+        "body_text_length": 125,
+        "body_text_sample": "作品中心\n学生作品提交与作业查看\n学生登录\n\n选择班级和姓名后进入自己的作品中心。\n\n学生\n教师\n班级\n班级读取失败\n姓名\n请先选择班级\n\n本学期学生课后提交入口已关闭，请下学期继续关注，谢谢！\n\n进入我的用户中心\nnot_found\n教师教学工作台",
+        "scroll_width": 1440,
+        "scroll_height": 1000,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 5,
+          "links": 0,
+          "inputs": 6,
+          "tables": 0,
+          "cards": 0,
+          "topbars": 0,
+          "bottom_bars": 0,
+          "hidden_screens": 1
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "14_semester_review_room_overview",
+      "label": "评阅室样板间 / 总览",
+      "source_path": "frontend/semester_review_room.html",
+      "url_path": "/frontend/semester_review_room.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "surface_group": "review_room",
+      "audit_focus": [
+        "room_shell",
+        "review_scene",
+        "candidate_materials"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/semester_review_room.html",
+      "screenshot": "screenshots/14_semester_review_room_overview.png",
+      "screenshot_bytes": 74104,
+      "screenshot_dimensions": {
+        "width": 1440,
+        "height": 1011
+      },
+      "dom_metrics": {
+        "title": "师维 · 评阅室",
+        "location": "http://127.0.0.1:61260/frontend/semester_review_room.html",
+        "body_text_length": 225,
+        "body_text_sample": "✦\n师维\n| 教师AI工作台\n⌂\n教\n备\n观\n作\n评\n档\n⌕\n铃\n2\n师\n2025学年第二学期\n美术\n班级整理中\n只读样板间\n评阅室\n学期评价资料\n班\n学\n证\n源\n评\n班\n学\n证\n刷\n出\n源\nUnexpected token 'N', \"Not found\" is not valid JSON\n评\n小评\n作品、常规与评价资料协同整理\n评\n＋\n声\n发\n预览层\n候选资料 / 教师确认前不生效\n作业收集\n›\n课堂表现\n›\n评价资料\n›\n教师核对\n0 项",
+        "scroll_width": 1440,
+        "scroll_height": 1011,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 15,
+          "links": 7,
+          "inputs": 2,
+          "tables": 0,
+          "cards": 0,
+          "topbars": 1,
+          "bottom_bars": 0,
+          "hidden_screens": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "15_semester_review_room_evidence",
+      "label": "评阅室样板间 / 课堂证据",
+      "source_path": "frontend/semester_review_room.html",
+      "url_path": "/frontend/semester_review_room.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "before_capture": "document.querySelector('[data-panel=\"evidence\"]')?.click()",
+      "surface_group": "review_room",
+      "audit_focus": [
+        "evidence_chain",
+        "routine_records",
+        "teacher_check"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/semester_review_room.html",
+      "screenshot": "screenshots/15_semester_review_room_evidence.png",
+      "screenshot_bytes": 74153,
+      "screenshot_dimensions": {
+        "width": 1440,
+        "height": 1011
+      },
+      "dom_metrics": {
+        "title": "师维 · 评阅室",
+        "location": "http://127.0.0.1:61260/frontend/semester_review_room.html",
+        "body_text_length": 225,
+        "body_text_sample": "✦\n师维\n| 教师AI工作台\n⌂\n教\n备\n观\n作\n评\n档\n⌕\n铃\n2\n师\n2025学年第二学期\n美术\n班级整理中\n只读样板间\n评阅室\n学期评价资料\n班\n学\n证\n源\n评\n班\n学\n证\n刷\n出\n源\nUnexpected token 'N', \"Not found\" is not valid JSON\n评\n小评\n作品、常规与评价资料协同整理\n评\n＋\n声\n发\n预览层\n候选资料 / 教师确认前不生效\n作业收集\n›\n课堂表现\n›\n评价资料\n›\n教师核对\n0 项",
+        "scroll_width": 1440,
+        "scroll_height": 1011,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 15,
+          "links": 7,
+          "inputs": 2,
+          "tables": 0,
+          "cards": 0,
+          "topbars": 1,
+          "bottom_bars": 0,
+          "hidden_screens": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "16_teacher_teach_entry",
+      "label": "教学系统入口 / 课堂链路前台",
+      "source_path": "frontend/teacher_teach.html",
+      "url_path": "/frontend/teacher_teach.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "surface_group": "teacher_display_candidate",
+      "audit_focus": [
+        "teaching_entry",
+        "classroom_submission_link",
+        "not_full_display"
+      ],
+      "page_url": "http://127.0.0.1:61260/frontend/teacher_teach.html",
+      "screenshot": "screenshots/16_teacher_teach_entry.png",
+      "screenshot_bytes": 241898,
+      "screenshot_dimensions": {
+        "width": 1425,
+        "height": 1021
+      },
+      "dom_metrics": {
+        "title": "教学系统 - 雕庄中心小学美术教学平台",
+        "location": "http://127.0.0.1:61260/frontend/teacher_teach.html",
+        "body_text_length": 754,
+        "body_text_sample": "首页\n工作系统\n教学系统\n📊 统计\n预\n预览用户老师\n▼\n教学系统\n\n先把小备接进网站主入口。当前先开放“快速备课”和“精修工作台”两条最小可用路径，先跑通老师的备课前台动线。\n\n同一个备课包，先用两种入口接入网站\n\n老师赶时间时先走“快速备课”，拿到能进提交机和小评链路的基础版；有时间再进“精修工作台”，继续补细节、调维度、改字段。当前先做网站接入预演，不直接写正式表。\n\n快速备课\n精修工作台\n已接网站入口\n共用同一份 prep_package\n当前仍是前端预演\n当前可用入口\n快速备课\n\n先生成一条基础可交付版小备，重点只看作业要求、老师提示、评价要点和核心活动。适合上课前先把入口补通。\n\n精修工作台\n\n在更完整的工作台里改草稿、看维度、做发布前检查。适合老师想继续把小备补厚、补稳的时候进入。\n\n课堂提交机\n\n小备发布后，后续学生提交还是走这里。也就是说这次接入不是孤立页，而是直接接进后面的提交链路。\n\n小评工作台\n\n小备里确认好的评价维度和作业要求，后面会继续流向小评。现在先把老师前台入口接进来，链路就更完整了。\n\n当前链路\nStep 1\n快速备课\n\n先补可发布的基础版小备，优先稳住作业要求和评价维度。\n\nStep 2\n精修工作台\n\n继续补字段、改措辞、调维度，作为后续更厚的精备入口。\n\nStep 3\n课堂提交机\n\n作业和班级发布后，课堂里继续走学生提交、绑定正确作业槽。\n\nStep 4\n小评工作台\n\n提交后的审核、维度得分和评语继续在小评链里闭环。\n\n这轮接入的重点不是把全部正式接口一次性接完，而是先让老师能在网站里真正点到“小备”，形成清晰入口：`首页 / 工作系统 -> 教学系统 -> 快速备课 or 精修工作台`。这样我们就能先看真实使用感，再决定下一步接哪条后端写回。",
+        "scroll_width": 1425,
+        "scroll_height": 1021,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 1,
+          "links": 19,
+          "inputs": 0,
+          "tables": 0,
+          "cards": 5,
+          "topbars": 1,
+          "bottom_bars": 1,
+          "hidden_screens": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "17_r221g_precise_prep_static_prototype",
+      "label": "R221G 精设备课静态原型",
+      "source_path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R221G_PRECISE_PREP_WORKBENCH_STATIC_PROTOTYPE/r221g_r97b_precise_prep_workbench_static_prototype.html",
+      "url_path": "/outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R221G_PRECISE_PREP_WORKBENCH_STATIC_PROTOTYPE/r221g_r97b_precise_prep_workbench_static_prototype.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "surface_group": "prep_room_recent_prototype",
+      "audit_focus": [
+        "decision_card",
+        "field_slots",
+        "boundary_warnings"
+      ],
+      "page_url": "http://127.0.0.1:61260/outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R221G_PRECISE_PREP_WORKBENCH_STATIC_PROTOTYPE/r221g_r97b_precise_prep_workbench_static_prototype.html",
+      "screenshot": "screenshots/17_r221g_precise_prep_static_prototype.png",
+      "screenshot_bytes": 241945,
+      "screenshot_dimensions": {
+        "width": 1440,
+        "height": 1203
+      },
+      "dom_metrics": {
+        "title": "师维 · 备课室 | R221G 精备工作台静态原型",
+        "location": "http://127.0.0.1:61260/outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R221G_PRECISE_PREP_WORKBENCH_STATIC_PROTOTYPE/r221g_r97b_precise_prep_workbench_static_prototype.html",
+        "body_text_length": 1531,
+        "body_text_sample": "✦\n师维\n| 教师AI工作台\n大厅\n教室\n备课室\n课堂观察\n作品馆\n知识馆\n档案室\n通知\n2\n教师账号\n2025学年第二学期\n苏少版美术\n三年级\n16周\n备课室\n· 备课本\n周课表\n备课本\n班级排课\n学期规划\nAI\n教材解析\n单元重组\n拆课\n周课表\n重排工具\n课堂流程\n学习单\n知识库检索\n交给小美\n调用小评\n调用小管\n教学推理图\n精备母链\n1\n\n单元价值方向\n\n价值方向 · 待确认\n\n2\n\n基本问题角度\n\n基本问题 · 待确认\n\n3\n\n表现性任务产出\n\n任务产出 · 待确认\n\n4\n\n四阶段单元责任\n\n阶段责任 · 待确认\n\n5\n\n活动路径\n\n活动路径 · 待确认\n\n6\n\n学习支架强度\n\n学习支架 · 待确认\n\n7\n\n评价证据重点\n\n评价证据 · 待确认\n\n初探\n发现和表达\n再探\n理解和探秘\n智造\n改造和创作\n结交\n使用、评价和迁移\n1. 价值方向\n2. 基本问题\n3. 任务产出\n4. 阶段责任\n5. 活动路径\n6. 学习支架\n7. 评价证据\n第 1 步\n待选择\nstatic only\n确认单元价值方向\n\n本单元更想突出观察理解、设计改进，还是文化科技与传统工艺价值？\n\n单元价值方向会约束大观念、基本问题、表现性任务、阶段责任和评价证据；本样本不能漏掉圆珠笔、太空笔、毛笔工艺、中国智造与传统工艺这条价值线。\n\nA\n观察理解主线\n\n把单元重心放在学生能看见、能描述、能比较的理解过程上。\n\nB\n设计改进主线\n\n把单元重心放在发现问题、理解设计理由、提出改进建议上。\n\nC\n文化科技主线\n\n通过圆珠笔、太空笔、毛笔工艺等故事，理解技术、工艺、文化价值和中国智造。\n\nD\n教师自定义组合方向\n\n教师说明本班价值侧重，并同步说清阶段责任、任务产出和证据重点。\n\n记录 D\n下游影响\n下一步\naffected_fields\nunit.big_idea\nunit.essential_question\nunit.performance_task\nunit.learning_stage\nassessment.evidence_chain\naffected_template_slots\npreci",
+        "scroll_width": 1440,
+        "scroll_height": 1203,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 44,
+          "links": 7,
+          "inputs": 4,
+          "tables": 0,
+          "cards": 0,
+          "topbars": 1,
+          "bottom_bars": 0,
+          "hidden_screens": 1
+        }
+      },
+      "pass": true
+    },
+    {
+      "id": "18_r220e_lesson_body_readability_sample",
+      "label": "R220E-P1 教案正文可读性样本",
+      "source_path": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R220E_P1_CENTER_BODY_VISUAL_READABILITY_SMOKE/visual_harness/real_downpour_docx.html",
+      "url_path": "/outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R220E_P1_CENTER_BODY_VISUAL_READABILITY_SMOKE/visual_harness/real_downpour_docx.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "surface_group": "lesson_body_recent_smoke",
+      "audit_focus": [
+        "formal_teacher_text",
+        "field_downweighting",
+        "reading_density"
+      ],
+      "page_url": "http://127.0.0.1:61260/outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R220E_P1_CENTER_BODY_VISUAL_READABILITY_SMOKE/visual_harness/real_downpour_docx.html",
+      "screenshot": "screenshots/18_r220e_lesson_body_readability_sample.png",
+      "screenshot_bytes": 425729,
+      "screenshot_dimensions": {
+        "width": 1425,
+        "height": 3592
+      },
+      "dom_metrics": {
+        "title": "下雨啰 - R220E-P1 visual smoke",
+        "location": "http://127.0.0.1:61260/outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R220E_P1_CENTER_BODY_VISUAL_READABILITY_SMOKE/visual_harness/real_downpour_docx.html",
+        "body_text_length": 2207,
+        "body_text_sample": "备课室中间正文视觉 smoke\n只读片段截图，不接真实 route\n下雨啰\n\n系统候选，需教师确认\n\n一、本课依据\n候选\n本课以雨天经验、雨的线条变化和诗意感受为学习起点，引导学生把看见的雨、听见的雨和心里的雨转化为线描雨景。\n原文已提供课堂导入、观察雨、诗词引入、线描示范、线描练习和分享小结六个环节，可作为本课教学过程的主要依据。\n二、学情分析\n候选\n四年级学生已有基本线条表现经验，能描述雨天感受，但容易停留在“下雨了”的生活描述，难以把细雨、暴雨、雷阵雨等差异转化为线条疏密、方向和节奏。\n本课难点不在是否会画雨，而在能否用观察到的线条变化表现不同雨景情绪，并在分享时说清自己选择某种线条的理由。\n三、教学目标\n候选\n学生能观察不同类型雨的图片，说出至少两种雨在线条方向、疏密或节奏上的差异。\n学生能用细头水笔在线稿或画面中表现一种雨景，并说明一处线条处理与雨的感受之间的关系。\n学生能在分享中听取同伴建议，完成一处线条、画面节奏或情感表达的调整。\n四、教学重难点\n候选\n重点：观察雨的形态差异，并用长短、疏密、方向和节奏不同的线条表现雨景。\n难点：把雨天情绪和诗意感受转化为画面中的线条组织，而不是只画相同的斜线。\n五、教学准备\n候选\n教师准备不同雨景图片、雨相关诗句或童诗、线描示范材料和雨景学习单。\n学生准备细头水笔、铅笔或勾线笔，并保留一张可修改的雨景练习纸。\n六、教学过程\n1. 课堂导入\n候选\n环节目标\n学生能说出自己对雨天的一种真实感受，并把感受和画面表现联系起来。\n教师组织\n从“你喜欢雨天吗”进入，追问理由，把学生的生活感受板书成安静、有趣、急促、清凉等关键词。\n学生学习\n回忆雨天经验，说出喜欢或不喜欢的理由，并听同伴补充不同感受。\n关键话术\n你说雨天很安静，那画面里的线条可以怎样安静下来？如果是暴雨，线条又会有什么变化？需教师确认\n核心证据\n学生能用一个情绪词或生活场景说明自己对雨天的感受。\n展开 micro-step、材料、支架和小教提醒\n2. 观察雨\n候选\n环节目标\n学生能比较细雨、暴雨、雷阵雨的视觉差异，并说出线条表现的一个选择。\n教师组织\n用图片对比不同雨",
+        "scroll_width": 1425,
+        "scroll_height": 3592,
+        "viewport_width": 1440,
+        "viewport_height": 1000,
+        "counts": {
+          "buttons": 0,
+          "links": 0,
+          "inputs": 0,
+          "tables": 0,
+          "cards": 0,
+          "topbars": 1,
+          "bottom_bars": 0,
+          "hidden_screens": 0
+        }
+      },
+      "pass": true
+    }
+  ],
+  "fatal": null
+}
