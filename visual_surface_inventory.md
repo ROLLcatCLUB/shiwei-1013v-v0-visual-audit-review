@@ -16,8 +16,8 @@ inventory_type=current_visual_surface_inventory
 
 | id | surface | source | screenshot | V0 reading |
 | --- | --- | --- | --- | --- |
-| 01 | 全局壳层 / 师维大厅 desktop | `frontend/home.html` | `screenshots/01_home_global_shell_desktop.png` | 产品名和空间导航清楚，师维气质强；桌面端没有持久底部小教输入栏，伙伴卡偏卡片大厅。 |
-| 02 | 全局壳层 / 师维大厅 mobile | `frontend/home.html` | `screenshots/02_home_global_shell_mobile.png` | 移动端可读，但底部导航压住首个任务卡按钮，safe area 需要处理。 |
+| 01 | 历史首页 / 师维大厅 desktop | `frontend/home.html` | `screenshots/01_home_global_shell_desktop.png` | 更正：这是早期首页/大厅参考，不是当前核心渲染底座。 |
+| 02 | 历史首页 / 师维大厅 mobile | `frontend/home.html` | `screenshots/02_home_global_shell_mobile.png` | 更正：可作为移动首页参考，但不能代表 R97B 四层壳。 |
 | 03 | 小教新工作面 / 今日重点 | `frontend/xiaojiao-preview.html` | `screenshots/03_xiaojiao_preview_home.png` | 轻量、聚焦、像教师工作流；但全局壳层弱，页面像独立试稿。 |
 | 04 | 小教新工作面 / 课时草稿 | `frontend/xiaojiao-preview.html` | `screenshots/04_xiaojiao_lesson_draft_focus.png` | 教案结构和小教建议容易理解，底部输入清楚；右侧记录卡和材料夹相对孤立。 |
 | 05 | 小教新工作面 / 教师确认门 | `frontend/xiaojiao-preview.html` | `screenshots/05_xiaojiao_teacher_confirm_gate.png` | 确认动作清楚，不压迫；但影响范围、来源标签、确认后写效应需要更稳定的组件位置。 |
@@ -34,6 +34,14 @@ inventory_type=current_visual_surface_inventory
 | 16 | 教学系统入口 | `frontend/teacher_teach.html` | `screenshots/16_teacher_teach_entry.png` | 是课堂链路入口，不是课堂大屏；可作为入口页审计，不应当替代 teacher display。 |
 | 17 | R221G 精设备课静态原型 | `outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/.../r221g_r97b_precise_prep_workbench_static_prototype.html` | `screenshots/17_r221g_precise_prep_static_prototype.png` | 四级框架和决策卡最接近未来方向；但 `static only`、`affected_fields` 等工程词应降权或藏到审核层。 |
 | 18 | R220E-P1 教案正文样本 | `outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/.../visual_harness/real_downpour_docx.html` | `screenshots/18_r220e_lesson_body_readability_sample.png` | 最像正式教师文本，适合作为 LessonPreviewCard / ContentDocument 的视觉靶子。 |
+
+## Correct Core Shell Capture
+
+| surface | source | screenshot | evidence |
+| --- | --- | --- | --- |
+| R97B 四层壳 / 当前核心渲染底座 | `outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R97B_TEACHER_SHELL_EXPERIENCE_POLISH_AND_STALE_CONTENT_CLEANUP/r97b_clean_shell_context_preview.html` | `r97b_correction/screenshots/r97b_core_shell_current.png` | `r97b_correction/r97b_core_shell_screenshot_manifest.json` confirms `current_shell=R97B`, R220B binding, shell-layer resolvers and render-slot resolvers. |
+
+R97B should now be treated as the visual V0 baseline. The `home.html` screenshots remain historical reference only.
 
 ## Current vs Reference Surfaces
 
@@ -54,8 +62,12 @@ frontend/teacher_teach.html
 Recent reference surfaces:
 
 ```text
+R97B controlled prep-room shell
+R220A render substrate and shell-layer audit
+R220B R97B shell-layer slot ownership binding
+R220D R97B render slot DOM smoke
 R221G precise prep static prototype
 R220E-P1 lesson body readability smoke
 ```
 
-Do not treat the reference surfaces as formal route replacements. They are visual and component references for the next round.
+Do not treat `frontend/home.html`, R100-P1, or R221G as the core shell replacement. R97B is the current shell target; R221G/R220E are visual/component references.

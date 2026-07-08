@@ -16,6 +16,12 @@ REQUIRED_FILES = [
     "screenshot_manifest.json",
     "visual_smoke_result.json",
     "tools/capture_1013V_visual_audit.cjs",
+    "r97b_correction/README_R97B_CORE_SHELL_CORRECTION.md",
+    "r97b_correction/r97b_render_substrate_evidence.md",
+    "r97b_correction/r97b_related_version_inventory.md",
+    "r97b_correction/r97b_core_shell_screenshot_manifest.json",
+    "r97b_correction/screenshots/r97b_core_shell_current.png",
+    "r97b_correction/tools/capture_r97b_core_shell.cjs",
 ]
 
 
@@ -96,6 +102,26 @@ def validate(root: Path) -> dict:
             metrics = record.get("dom_metrics") or {}
             if metrics.get("body_text_length", 0) <= 0:
                 fail(errors, f"empty body text for {record.get('id')}")
+
+    correction_path = audit_dir / "r97b_correction" / "r97b_core_shell_screenshot_manifest.json"
+    if correction_path.exists():
+        correction = read_json(correction_path)
+        if correction.get("pass") is not True:
+            fail(errors, "R97B core shell correction manifest did not pass")
+        target_shell = correction.get("target_shell", "")
+        if "1013R_R97B_TEACHER_SHELL_EXPERIENCE_POLISH_AND_STALE_CONTENT_CLEANUP" not in target_shell:
+            fail(errors, "R97B correction target shell is not the controlled R97B shell path")
+        dom = correction.get("dom_metrics") or {}
+        if dom.get("current_shell") != "R97B":
+            fail(errors, f"R97B correction current_shell mismatch: {dom.get('current_shell')}")
+        if dom.get("r220b_shell_binding") != "true":
+            fail(errors, "R97B correction missing R220B shell binding marker")
+        if dom.get("has_resolve_shell_layer") is not True or dom.get("has_resolve_render_slot") is not True:
+            fail(errors, "R97B correction missing shell/render resolver functions")
+        for group_name in ("shell_layers", "render_slots"):
+            for key, item in (dom.get(group_name) or {}).items():
+                if not item.get("found"):
+                    fail(errors, f"R97B correction missing {group_name}.{key}")
 
     result = {
         "stage": STAGE,

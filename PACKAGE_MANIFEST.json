@@ -1,10 +1,11 @@
 ﻿{
     "stage":  "1013V_VISUAL_SYSTEM_POLISH_LINE",
     "phase":  "V0_VISUAL_AUDIT",
-    "package_type":  "visual_audit_review_package",
-    "created_at":  "2026-07-08T16:02:13.2906619Z",
+    "package_type":  "visual_audit_review_package_with_r97b_core_shell_correction",
+    "created_at":  "2026-07-08T16:38:58.1763171Z",
     "root":  "D:\\Documents\\SmartEdu\\xiaobei-core",
     "audit_dir":  "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\1013V_VISUAL_SYSTEM_POLISH_LINE\\V0_VISUAL_AUDIT",
+    "correction":  "R97B is current core shell; frontend/home.html is historical homepage reference",
     "boundary":  {
                      "visual_audit_only":  true,
                      "frontend_modified":  false,
@@ -17,90 +18,114 @@
     "files":  [
                   {
                       "path":  "current_visual_problem_notes.md",
-                      "bytes":  3626
+                      "bytes":  4071
+                  },
+                  {
+                      "path":  "r97b_correction/r97b_core_shell_screenshot_manifest.json",
+                      "bytes":  9238
+                  },
+                  {
+                      "path":  "r97b_correction/r97b_related_version_inventory.md",
+                      "bytes":  1933
+                  },
+                  {
+                      "path":  "r97b_correction/r97b_render_substrate_evidence.md",
+                      "bytes":  2840
+                  },
+                  {
+                      "path":  "r97b_correction/README_R97B_CORE_SHELL_CORRECTION.md",
+                      "bytes":  1903
+                  },
+                  {
+                      "path":  "r97b_correction/screenshots/r97b_core_shell_current.png",
+                      "bytes":  835286
+                  },
+                  {
+                      "path":  "r97b_correction/tools/capture_r97b_core_shell.cjs",
+                      "bytes":  10723
                   },
                   {
                       "path":  "README.md",
-                      "bytes":  2808
+                      "bytes":  3825
                   },
                   {
                       "path":  "screenshot_manifest.json",
                       "bytes":  51960
                   },
                   {
-                      "path":  "screenshots\\01_home_global_shell_desktop.png",
+                      "path":  "screenshots/01_home_global_shell_desktop.png",
                       "bytes":  289566
                   },
                   {
-                      "path":  "screenshots\\02_home_global_shell_mobile.png",
+                      "path":  "screenshots/02_home_global_shell_mobile.png",
                       "bytes":  275712
                   },
                   {
-                      "path":  "screenshots\\03_xiaojiao_preview_home.png",
+                      "path":  "screenshots/03_xiaojiao_preview_home.png",
                       "bytes":  72627
                   },
                   {
-                      "path":  "screenshots\\04_xiaojiao_lesson_draft_focus.png",
+                      "path":  "screenshots/04_xiaojiao_lesson_draft_focus.png",
                       "bytes":  145673
                   },
                   {
-                      "path":  "screenshots\\05_xiaojiao_teacher_confirm_gate.png",
+                      "path":  "screenshots/05_xiaojiao_teacher_confirm_gate.png",
                       "bytes":  77695
                   },
                   {
-                      "path":  "screenshots\\06_xiaojiao_material_folder.png",
+                      "path":  "screenshots/06_xiaojiao_material_folder.png",
                       "bytes":  72627
                   },
                   {
-                      "path":  "screenshots\\07_xiaobei_workbench_pick.png",
+                      "path":  "screenshots/07_xiaobei_workbench_pick.png",
                       "bytes":  309800
                   },
                   {
-                      "path":  "screenshots\\08_xiaobei_workbench_draft_fields.png",
+                      "path":  "screenshots/08_xiaobei_workbench_draft_fields.png",
                       "bytes":  349395
                   },
                   {
-                      "path":  "screenshots\\09_xiaobei_workbench_dimension_edit.png",
+                      "path":  "screenshots/09_xiaobei_workbench_dimension_edit.png",
                       "bytes":  351355
                   },
                   {
-                      "path":  "screenshots\\10_xiaobei_quick_prep.png",
+                      "path":  "screenshots/10_xiaobei_quick_prep.png",
                       "bytes":  357726
                   },
                   {
-                      "path":  "screenshots\\11_quick_drafts_internal_review.png",
+                      "path":  "screenshots/11_quick_drafts_internal_review.png",
                       "bytes":  133823
                   },
                   {
-                      "path":  "screenshots\\12_assignment_dimension_confirm_gate.png",
+                      "path":  "screenshots/12_assignment_dimension_confirm_gate.png",
                       "bytes":  140495
                   },
                   {
-                      "path":  "screenshots\\13_xiaoping_review_gallery.png",
+                      "path":  "screenshots/13_xiaoping_review_gallery.png",
                       "bytes":  116796
                   },
                   {
-                      "path":  "screenshots\\14_semester_review_room_overview.png",
+                      "path":  "screenshots/14_semester_review_room_overview.png",
                       "bytes":  74104
                   },
                   {
-                      "path":  "screenshots\\15_semester_review_room_evidence.png",
+                      "path":  "screenshots/15_semester_review_room_evidence.png",
                       "bytes":  74153
                   },
                   {
-                      "path":  "screenshots\\16_teacher_teach_entry.png",
+                      "path":  "screenshots/16_teacher_teach_entry.png",
                       "bytes":  241898
                   },
                   {
-                      "path":  "screenshots\\17_r221g_precise_prep_static_prototype.png",
+                      "path":  "screenshots/17_r221g_precise_prep_static_prototype.png",
                       "bytes":  241945
                   },
                   {
-                      "path":  "screenshots\\18_r220e_lesson_body_readability_sample.png",
+                      "path":  "screenshots/18_r220e_lesson_body_readability_sample.png",
                       "bytes":  425729
                   },
                   {
-                      "path":  "tools\\capture_1013V_visual_audit.cjs",
+                      "path":  "tools/capture_1013V_visual_audit.cjs",
                       "bytes":  18703
                   },
                   {
@@ -108,8 +133,8 @@
                       "bytes":  248
                   },
                   {
-                      "path":  "validator\\validate_1013V_V0_visual_audit.py",
-                      "bytes":  4474
+                      "path":  "validator/validate_1013V_V0_visual_audit.py",
+                      "bytes":  6157
                   },
                   {
                       "path":  "visual_smoke_result.json",
@@ -117,7 +142,7 @@
                   },
                   {
                       "path":  "visual_surface_inventory.md",
-                      "bytes":  5353
+                      "bytes":  6117
                   }
               ]
 }

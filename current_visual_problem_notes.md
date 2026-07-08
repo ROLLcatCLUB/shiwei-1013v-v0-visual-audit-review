@@ -8,9 +8,13 @@ notes_type=current_visual_problem_notes
 
 ## Top Findings
 
+0. Correction: the core visual baseline is R97B, not the early home page.
+
+The screenshot `screenshots/01_home_global_shell_desktop.png` is an early 师维 homepage / lobby. It should not be used as the current visual-system shell. The current baseline is `r97b_correction/screenshots/r97b_core_shell_current.png`, backed by R220A render substrate audit, R220B shell-layer slot ownership binding, and R220D DOM smoke.
+
 1. The system currently has three visual languages.
 
-`home.html` / `semester_review_room.html` / R221G use the green 师维 shell; `xiaojiao-preview.html` uses warm orange focused workflow; quick prep, draft review, dimension confirm and older review pages use blue admin SaaS styling. This makes the product feel like stitched surfaces rather than one teacher workbench.
+R97B / R221G / `semester_review_room.html` use the green 师维 shell language; `xiaojiao-preview.html` uses warm orange focused workflow; quick prep, draft review, dimension confirm and older review pages use blue admin SaaS styling. This makes the product feel like stitched surfaces rather than one teacher workbench.
 
 2. The four-level framework is present, but not consistently expressed.
 
@@ -76,6 +80,7 @@ ProcessStepCard
 P1 first implementation target:
 
 ```text
+R97B 备课室四层壳
 备课室正文阅读面
 字段降权
 教师确认门

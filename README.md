@@ -38,6 +38,36 @@ R21_R36_core_contract_modified=false
 - 教学入口 / 课堂链路候选：`frontend/teacher_teach.html`
 - 最近备课室输出原型：R221G 静态精设备课原型、R220E-P1 教案正文可读性样本
 
+## Correction: Core Shell Is R97B
+
+V0 初版把 `frontend/home.html` 截图列为“全局壳层”。这不准确。
+
+`frontend/home.html` 是早期师维首页 / 大厅参考，不是当前视觉系统线的核心渲染底座。
+
+当前 1013R 备课室核心底座应以 R97B 最近四层壳为准：
+
+```text
+outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R97B_TEACHER_SHELL_EXPERIENCE_POLISH_AND_STALE_CONTENT_CLEANUP/r97b_clean_shell_context_preview.html
+```
+
+本包已补充修正材料：
+
+```text
+r97b_correction/README_R97B_CORE_SHELL_CORRECTION.md
+r97b_correction/r97b_render_substrate_evidence.md
+r97b_correction/r97b_related_version_inventory.md
+r97b_correction/screenshots/r97b_core_shell_current.png
+r97b_correction/r97b_core_shell_screenshot_manifest.json
+```
+
+R220A/B/D 是本轮视觉线应优先读取的底座证据：
+
+```text
+R220A = render substrate and shell layer audit
+R220B = R97B shell layer slot ownership binding
+R220D = R97B render slot DOM smoke
+```
+
 Smoke result:
 
 ```text
@@ -61,7 +91,7 @@ fail_count=0
 
 项目已经有可用的视觉方向，但还没有统一视觉系统。
 
-最接近未来主线的是 R221G/R220E 这组：R221G 把四级框架、决策卡、字段槽、来源边界放进同一壳层；R220E-P1 的教案正文最像教师可读文本。但 R221G 仍有明显工程语言和字段噪声，R220E 还只是正文 harness，不是完整 route。
+核心底座必须先回到 R97B/R220A/R220B/R220D 这条线：R97B 是当前受控工作壳，R220A 明确它是 render substrate 目标，R220B 给它加了 readonly shell-layer / render-slot resolver，R220D 已做 DOM smoke。R221G/R220E 只能作为后续组件与正文可读性参考，不应替代 R97B 壳层。
 
 `home.html` 和 `semester_review_room.html` 有统一的师维壳层气质，但静态审计下评阅室/作品相关页面暴露出 API 失败态，说明 V1 前需要先补可审 fixture 或静态降级态。
 
